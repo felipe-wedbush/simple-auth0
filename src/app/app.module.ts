@@ -12,13 +12,13 @@ import { ContactListComponent } from './contacts/contact-list/contact-list.compo
   declarations: [
     AppComponent,
     ContactDetailsComponent,
-    ContactListComponent,
-    FormsModule,
-    HttpClientModule
+    ContactListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
