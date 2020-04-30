@@ -1,8 +1,9 @@
-<div class="container">
-  <contact-list></contact-list>
+<div class="d-flex flex-column h-100">
+  <app-nav-bar></app-nav-bar>
+
+  <div class="flex-grow-1 flex-shrink-1">
+    <router-outlet></router-outlet>
+  </div>
+
+  <app-footer></app-footer>
 </div>
-<p>
-  Testing env variables <br>
-  client id {{clientId}} <br>
-  auth0domain {{auth0Domain}}
-</p>
