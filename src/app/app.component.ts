@@ -7,8 +7,6 @@ import { Environment } from '../environments/environment-variables';
 })
 export class AppComponent {
   title = 'simple-auth0';
-  clientId = Environment.clientId;
-  auth0Domain = Environment.auth0Domain;
-  DONT_EXIST = Environment.DONT_EXIST;
-  MYAPP_DEFAULT_SETTING = Environment.MYAPP_DEFAULT_SETTING;
+  clientId = Environment.MYAPP_clientId;
+  auth0Domain = Environment.MYAPP_auth0Domain;
 }
