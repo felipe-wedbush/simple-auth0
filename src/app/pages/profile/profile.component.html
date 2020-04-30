@@ -15,6 +15,6 @@
   </div>
 
   <div class="row" *ngIf="profileJson">
-    <code>{{ profileJson }}</code>
+    <pre class="rounded"><code class="json" [highlight]="profileJson"></code></pre>
   </div>
 </div>
